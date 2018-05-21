@@ -1,0 +1,16 @@
+<!--index.wxml-->
+<view class="container">
+  <view class='top-box'></view>
+  <view class="new-box">
+    <view class="new-list" wx:for='{{ indexList }}'>
+       <view class='new-list-img'>
+        <image src='{{ item.img }}'></image>
+      </view> 
+      <view>
+        <text class='name'>{{index}}{{ item.title }}</text>
+         <text class='tit'>{{ item.tag }}</text>
+        <text class='time'>{{ item.time }}</text> 
+      </view>
+    </view>
+  </view>
+</view>

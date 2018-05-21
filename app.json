@@ -1,0 +1,55 @@
+{
+    "pages": [
+        "pages/index/index",
+        "pages/logs/logs",
+        "pages/movie/movie",
+        "pages/overseas/overseas",
+        "pages/comic/comic",
+        "pages/novel/novel"
+    ],
+    "window": {
+        "backgroundTextStyle":"light",
+        "navigationBarBackgroundColor": "#d81e06",
+        "navigationBarTitleText": "枸杞影视",
+        "navigationBarTextStyle":"#fff"
+    },
+    "tabBar": {
+        "color": "#666",
+        "selectedColor": "#d81e06",
+        "borderStyle": "#d81e06",
+        
+        "backgroundColor": "#ffffff",
+        "list": [
+            {
+                "pagePath": "pages/index/index",
+                "iconPath": "pages/images/gouqi.png",
+                "selectedIconPath": "pages/images/gouqiActive.png",
+                "text": "首页"
+            },
+            {
+                "pagePath": "pages/movie/movie",
+                "iconPath": "pages/images/movie.png",
+                "selectedIconPath": "pages/images/movieActive.png",
+                "text": "电影"                 
+            },
+            {
+                "pagePath": "pages/overseas/overseas",
+                "iconPath": "pages/images/hai.png",
+                "selectedIconPath": "pages/images/haiActive.png",
+                "text": "海外剧"                 
+            },
+            {
+                "pagePath": "pages/comic/comic",
+                "iconPath": "pages/images/man.png",
+                "selectedIconPath": "pages/images/manActive.png",
+                "text": "动漫"                 
+            },
+            {
+                "pagePath": "pages/novel/novel",
+                "iconPath": "pages/images/txt.png",
+                "selectedIconPath": "pages/images/txtActive.png",
+                "text": "小说"                 
+            }
+        ]
+    }
+}
